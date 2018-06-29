@@ -1,0 +1,71 @@
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+
+.content-block{
+    
+    padding:0 !important;
+}
+
+
+.list-block{
+    text-align: center;
+}
+
+
+.button {
+background: #a7349e !important;
+color:#f2f2f2!important;   
+border: 2px solid #222426 !important;
+height:50px;    
+padding: 12px;
+font-size: 16px !important;    
+}
+
+#stations{
+    border: 1px solid gray;
+    padding-left:30%;
+}
+
+#stations:after{
+    content: '\25BD';
+}
+
+.philiTable
+            {
+                font-size: 14px !important;
+                width: 100% !important;
+            }
+
+.philiTable th{
+    background: #a7349e;
+    color:#f2f2f2;
+}
+           .philiTable tr:nth-child(even){
+            
+                background-color:  #262626;
+                color: #f2f2f2;
+                
+            }
+
+           .philiTable tr:nth-child(odd){
+            
+                background-color: #1a1a1a;
+                color: #f2f2f2;
+            }
+
+            
+             table, th, td, tr
+            {
+                border: 1px solid #222426;
+                border-collapse: collapse;
+                padding:5px;
+                 color:#f2f2f2;
+            }
+
+
+.far, .fas{
+    font-size:21px;
+}
