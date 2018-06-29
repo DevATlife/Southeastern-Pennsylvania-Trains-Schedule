@@ -16,7 +16,7 @@
 
 
 .button {
-background: #a7349e !important;
+background: #ff6600 !important;
 color:#f2f2f2!important;   
 border: 2px solid #222426 !important;
 height:50px;    
@@ -35,12 +35,12 @@ font-size: 16px !important;
 
 .philiTable
             {
-                font-size: 14px !important;
+                font-size: 12px !important;
                 width: 100% !important;
             }
 
 .philiTable th{
-    background: #a7349e;
+    background: #ff6600;
     color:#f2f2f2;
 }
            .philiTable tr:nth-child(even){

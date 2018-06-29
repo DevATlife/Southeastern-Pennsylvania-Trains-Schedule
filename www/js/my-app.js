@@ -58,7 +58,7 @@ $$(document).on('deviceready', function() {
         
                 var output = "<center><h3>Northbound</h3></center>";
                 output += "<table class='philiTable'>";
-                output += "<tr><th>Train <br><i class='fas fa-subway'></i></th><th>Time <br><i class='far fa-clock''></i></th><th>Destination<br><i class='fas fa-map-signs'></i></th><th>Service<br><i class='fas fa-file-signature'></i></th><th>Status<br><i class='fas fa-hourglass-half'></i></th></tr>";
+                output += "<tr><th>Train<br><i class='fas fa-subway'></i></th><th>Time <br><i class='far fa-clock'></i></th><th>Destination<br><i class='fas fa-map-signs'></i></th><th>Service<br><i class='fas fa-file-signature'></i></th><th>Status<br><i class='fas fa-hourglass-half'></i></th></tr>";
             
                 /*----- JSON.parse ----*/
                 var data = JSON.parse(result);
@@ -85,7 +85,7 @@ $$(document).on('deviceready', function() {
                 var southbound = arr[1].Southbound;
                 var output2 = "<br><center><h3>Southbound</h3></center>";
                 output2 += "<table class='philiTable'>";
-                output2 += "<tr><th>Train <br><i class='fas fa-subway'></i></th><th>Time <br><i class='far fa-clock''></i></th><th>Destination<br><i class='fas fa-map-signs'></i></th><th>Service<br><i class='fas fa-file-signature'></i></th><th>Status<br><i class='fas fa-hourglass-half'></i></th></tr>";
+                output2 += "<tr><th>Train <br><i class='fas fa-subway'></i></th><th>Time <br><i class='far fa-clock'></i></th><th>Destination<br><i class='fas fa-map-signs'></i></th><th>Service<br><i class='fas fa-file-signature'></i></th><th>Status<br><i class='fas fa-hourglass-half'></i></th></tr>";
                 for(var i=0; i < southbound.length; i++)
                 {
                     output2 += ` 
